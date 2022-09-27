@@ -1,0 +1,14 @@
+header { 
+    margin-bottom: 12.5rem;
+    .container { 
+        padding-top: 3rem ;
+        img {
+            width: 100%;
+            max-width: 14.3rem;
+        }
+    }
+    @include responsive(480px) { 
+    margin-bottom: 8.5rem;
+        
+    }
+}

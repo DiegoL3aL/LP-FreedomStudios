@@ -1,0 +1,26 @@
+.btn-primary { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 15px;
+    height: 6rem;
+
+    background: #E11B19;
+    border-radius: 40px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    transition: .5s all;
+
+    &:hover {
+        background: #b1100d;
+    }
+
+}
