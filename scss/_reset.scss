@@ -7,7 +7,10 @@
     border: none;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
-
+    ::selection {
+        background-color: '$primary-color' !important;
+        color: #ffffff !important;
+    }
 }
 
 img {  
